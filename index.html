@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo">PORTFO<span>LIO</span></div>
+        <div class="menu">
+            <a href="#Home"><i class='fa fa-home'></i> Home</a>
+            <a href="#about"><i class='fa fa-user'></i> About me</a>
+            <a href="#Skills"><i class='fa fa-mortar-board'></i> Skills</a>
+            <a href="#work"><i class='fa fa-clone'></i> Works</a>
+            <a href="#contact"><i class='fa fa-volume-control-phone'></i> Contact me</a>
+        </div>
+    </nav>
+    <div class="text">
+        <p>Hello, I am</p>
+        <h1>Lucky Raj</h1>
+        <p>And I am a <span id="animate" style="color: #e74c3c;"></span></p>
+        <button class="btn">Hire me</button>
+    </div>
+    </header>
+
+
+    <section id="about">
+        <div class="section-info">
+            <h1>About me</h1>
+            <p>Who i am?</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="images/about.png" alt="">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">
+                    Hello, I'm Lucky & I'm a Hardware/Software Engineer
+                </p>
+                <br>
+                <p>
+                    I am pre-final year undergraduate in B.tech with
+                    Electronics & Communication Engineering from PIET,
+                    Samalkha. I am a keen observer who is always interested
+                    in improving and expanding personal tech stack with
+                    a wide range of skillset including some important
+                    areas of Electronics. I am looking forwad for some
+                    exciting opportunities to be a part of.
+                </p>
+                <a href="LUCKY RAJ-1.pdf" target="blank"><button class="btn">View my Resume</button></a>
+            </div>
+        </div>
+    </section> 
+    
+    <section id="Skills">
+        <div class="section-info">
+            <h1 style="color:white">Skill's</h1>
+            <p>What is your skills?</p>
+        </div>
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p>
+                   The skills which I have learned till now to stay in this modern era of emerging technologies are-
+                </p>
+                <button class="btn">Read more</button>
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                    <P>
+                    <span>HTML 5</span><br>
+                    <progress value="80" max="100"></progress>
+                    <SPAN>80%</SPAN>
+                </P>
+                <P>
+                    <span>CSS 3</span><br>
+                    <progress value="80" max="100"></progress>
+                    <SPAN>80%</SPAN>
+                </P>
+                <P>
+                    <span>JAVASCRIPT</span><br>
+                    <progress value="80" max="100"></progress>
+                    <SPAN>70%</SPAN>
+                </P>
+                <P>
+                    <span>JQUERY</span><br>
+                    <progress value="80" max="100"></progress>
+                    <SPAN>60%</SPAN>
+                </P>
+                <P>
+                    <span>BOOTSTRAP</span><br>
+                    <progress value="80" max="100"></progress>
+                    <SPAN>80%</SPAN>
+                </P>
+                <P>
+                    <span>PHP & MySql</span><br>
+                    <progress value="85" max="100"></progress>
+                    <SPAN>80%</SPAN>
+                </P>
+                
+               
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section id="work">
+        <div class="section-info">
+            <h1>Work</h1>
+            <p>What I did till now</p>
+        </div>
+        <div class="work-row">
+            <div class="work-box" data-tilt>
+                <img src="images/p2.png" alt="#">
+                <h1>Web Designer</h1>
+                <p>
+                    I am a Web-Developer . I have acquired full skills in the field of full-stack development. To design the front-end, I have knowledge of HTML5,CSS3,JS & frameworks like Bootstrap.And for the back-end & database development, I am familiar with PHP & MySql.
+                </p>
+            </div>
+
+            <div class="work-box" data-tilt>
+                <img src="images/p2.png" alt="#">
+                <h1>C++ Programmer</h1>
+                <p>
+                    I am a c++ programmer. I have made some projects by using this language like Hotel Management,Supermarket Billing,Login Interface.I have also some basic knowledge of python programming.
+                </p>
+            </div>
+
+            <div class="work-box" data-tilt>
+                <img src="images/p2.png" alt="#">
+                <h1>Trainings</h1>
+                <p>
+                    I have completed my web-development course on Udemy online. I have earned a certificate in that. I have also completed my basic trainig on arduino by IIT Bombay.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-info">
+            <h1 style="color:white">Contact me</h1>
+            <p style="color:black">I am Available</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="images/p3.png" alt="#">
+            </div>
+            <div class="contact-right-col">
+                <form action="#">
+                    <h2>Connect with me</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="E-mail">
+                    <br>
+                    <textarea name="#" id="#" cols="40" rows="10">Messages</textarea>
+                    <br>
+                    <a href="#"><button class="btn">Submit</button></a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by Lucky Raj</h2>
+        <p>&copy2022 copyright all the right reserved by: <a href="#">Lucky Raj</a></p>
+        <a href="https://www.facebook.com/profile.php?id=100017039235540" target="blank" class="facebook"><i class='fa fa-facebook'></i></a>
+        <a href="https://www.instagram.com/luckyraj504" target="blank" class="instagram"><i class='fa fa-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/lucky-raj-aa8a60203" target="blank" class="linkedin"><i class='fa fa-linkedin'></i></a>
+        <a href="https://www.twitter.com/@LuckyRa19630368" target="blank" class="twitter"><i class='fa fa-twitter'></i></a>
+        <a href="https://www.github.com/Lucky-766" target="blank" class="github"><i class='fa fa-github'></i></a>
+    </section>
+    <script>
+        var animate = new Typed("#animate", {
+            strings: ["Web-Developer","Hardware/Software Engineer","C++ Programmer"],
+            typeSpeed: 200,
+            typeSpeed:200,
+            loop:true,
+        });
+    </script>
+    <script src="js/tilt.jquery.min.js"></script>
+</body>
+</html>
